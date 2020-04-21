@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  squared = [];
+  array.length.times do |counter|
+    squared[counter] = array[counter] ** 2;
+  end
+  return squared; 
 end
+
